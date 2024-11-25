@@ -50,14 +50,14 @@ export default function Footer() {
 
         {/* Right Section */}
         <div>
-          <h2 className="text-lg font-bold mb-4">Contact Us</h2>
+          <h2 className="text-lg font-bold mb-4">Infomation</h2>
           <ul className="space-y-2">
             <li>
               <a
                 href="mailto:info@example.com"
                 className="text-gray-400 hover:text-white"
               >
-                Email
+                会社概要
               </a>
             </li>
             <li>
@@ -67,7 +67,12 @@ export default function Footer() {
             </li>
             <li>
               <a href="/notice" className="text-gray-400 hover:text-white">
-                notice
+                Notice
+              </a>
+            </li>
+            <li>
+              <a href="/infomation" className="text-gray-400 hover:text-white">
+                Infomation
               </a>
             </li>
           </ul>
