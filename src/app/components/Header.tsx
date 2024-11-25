@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between p-4 bg-gray-800 text-white fixed w-[100vw] z-10">
+    <header className="flex items-center justify-between p-4 bg-[#ffffff9a] text-white fixed w-[100vw] z-10 border-b-2 border-[#00000075]">
       <Link href={"/"}>
-        <h1 className="text-xl font-bold">CodeNest</h1>
+        <h1 className="text-xl font-bold text-[#030303]">CodeNest</h1>
       </Link>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex space-x-4">
+      <nav className="hidden md:flex space-x-4 text-[#030303]">
         <a href="#home" className="hover:underline">
           Home
         </a>
@@ -28,7 +28,7 @@ const Header = () => {
       {/* Mobile Navigation */}
       <DropdownMenu.Root>
         <DropdownMenu.Trigger className="md:hidden">
-          <p className="p-2 bg-gray-800 rounded hover:bg-gray-900">☰</p>
+          <p className="p-2 text-[#030303] rounded">☰</p>
         </DropdownMenu.Trigger>
 
         <DropdownMenu.Portal>
