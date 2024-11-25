@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
+    <header className="flex items-center justify-between p-4 bg-gray-800 text-white fixed w-[100vw] z-10">
       <Link href={"/"}>
         <h1 className="text-xl font-bold">CodeNest</h1>
       </Link>
